@@ -305,8 +305,6 @@ async function animateChipRemoval(chip) {
 
   return gsap.to(chip, {
     alpha: 0,
-    scaleX: 1.3,
-    scaleY: 1.3,
     y: chip.y - chipVisualSizeRef * 0.3,
     duration: 0.3,
     onComplete: () => {
